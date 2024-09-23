@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pwd {root}</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href=#home>pwd {root}</a></div>
+            <ul class="nav-links">
+                <li><a href="#home">/home</a></li>
+                <li><a href="#blog">/blog</a></li>
+                <li><a href="#projects">/projects</a></li>
+                <li><a href="#whoami">/whoami</a></li>
+            </ul>
+            <a href="#contact" class="contact-button">contact</a>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1><span class="typing-text"></span></h1>
+            <blockquote class="catchphrase">
+                <p>let's decode the mystery,<br>one bytes at a time,<br>on the wild side of the cyber world</p>
+            </blockquote>
+            
+            <a href="#projects" class="cta-button">View Projects</a>
+        </section>
+
+        <section id="blog" class="blog">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <!-- Existing blog item -->
+                <div class="blog-item">
+                    <img src="imgs/ai-blog.jpeg" alt="AI in Cybersecurity">
+                    <h3>AI in Cybersecurity</h3>
+                    <p>Discover how artificial intelligence is revolutionizing the battlefield of digital security.</p>
+                    <a href="blogs/blog0.html" class="read-more">Read More →</a>
+                </div>                
+            </div>
+            <a href="blogs.html" class="view-all-button">View All Posts</a>
+        </section>
+        
+        <section id="projects" class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <!-- Existing project item -->
+                <div class="project-item">
+                    <img src="imgs/crypto post.jpeg" alt="Zencrypt Project image">
+                    <h3>Zencrypt</h3>
+                    <p>Fortress-level encryption tool for a regular netizen.</p>
+                    <a href="projects/project0.html" class="project-button">View Project</a>
+                </div>                
+            </div>
+            <a href="projects.html" class="view-all-button">View All Projects</a>
+        </section>
+
+        <section id="whoami" class="whoami">
+            <h2>WhoAmI</h2>
+            <div class="profile">
+                <img src="imgs/blog-img.png" alt="Profile picture">
+                <div class="profile-info">
+                    <h3>pwd {root}/DougSec</h3>
+                    <p>Reverse-enginerd by default, fascinated and enthusiastic about security, *ethical* hacking, and creating the safest possible code for the cyberworld. Welcome to the world of an infoholic.</p>
+                    <div class="social-links">
+                        <!-- Add social media icons/links here (empty for now... thinking about it)-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <form>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="thank-you-message">
+                <blockquote class="thank-you-message">
+                    <p>I appreciate your curiosity about what I do! In order to discuss partnerships, please use the form or the social media links below to get in touch with me.</p>
+                </blockquote>
+                
+            </div>
+            <div class="social-links">
+                <a href="https://youtube.com/@douglascybersec" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://github.com/douglascybersec" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/douglascybersec" target="_blank"><img src="imgs/icons/x.svg", alt="x.com" width="20" height="20"></a>
+                <a href="https://instagram.com/douglascybersec" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com/@douglascybersec" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 pwd {root}. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

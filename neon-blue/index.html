@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-text {
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        #mobile-menu {
+            position: fixed;
+            top: 68px;
+            left: 0;
+            right: 0;
+            z-index: 40;
+        }
+    </style>
+</head>
+<body class="bg-black text-gray-300 flex flex-col min-h-screen">
+    <nav class="bg-gray-900 shadow-lg fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <a href="#" class="text-2xl font-bold text-blue-500">MyBlog</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#" class="hover:text-blue-500 transition duration-300">Home</a>                    
+                    <a href="#blog" class="hover:text-blue-500 transition duration-300">Blog</a>
+                    <a href="#projects" class="hover:text-blue-500 transition duration-300">Projects</a>               
+                    <a href="#about" class="hover:text-blue-500 transition duration-300">About</a>
+                </div>
+                <a href="#contact" class="bg-blue-700 text-white px-4 py-2 rounded-full font-semibold hover:bg-blue-800 transition duration-300">Contact</a>
+                <button class="md:hidden focus:outline-none" id="burger-menu-button">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="md:hidden bg-gray-800 text-white hidden" id="mobile-menu">
+        <a href="#" class="block px-4 py-2 hover:bg-gray-700">Home</a>
+        <a href="#about" class="block px-4 py-2 hover:bg-gray-700">About</a>
+        <a href="#blog" class="block px-4 py-2 hover:bg-gray-700">Blog</a>
+        <a href="#projects" class="block px-4 py-2 hover:bg-gray-700">Projects</a>
+    </div>
+    
+    <div class="hero-section bg-gray-900 h-screen flex items-center justify-center relative">
+        <div class="text-center hero-text">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 text-blue-500 animate-pulse">[Add your catchy tagline here]</h1>
+            <p class="text-xl md:text-2xl text-gray-400">[Add a brief description of your blog or personal brand]</p>
+        </div>
+    </div>
+
+    <div id="blog" class="bg-gray-900 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center text-blue-500">Latest Blog Posts</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Blog 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-400">[Blog 1 Title]</h3>
+                        <p class="text-gray-500 mb-4">[Brief description of Blog 1 content]</p>
+                        <a href="#" class="text-blue-500 hover:text-blue-400">Read More →</a>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Blog 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-400">[Blog 2 Title]</h3>
+                        <p class="text-gray-500 mb-4">[Brief description of Blog 2 content]</p>
+                        <a href="#" class="text-blue-500 hover:text-blue-400">Read More →</a>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1496096265110-f83ad7f96608?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Blog 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-400">[Blog 3 Title]</h3>
+                        <p class="text-gray-500 mb-4">[Brief description of Blog 3 content]</p>
+                        <a href="#" class="text-blue-500 hover:text-blue-400">Read More →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="bg-blue-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-800 transition duration-300">View All Posts</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="bg-black py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center text-blue-500">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-400">[Project 1 Title]</h3>
+                        <p class="text-gray-500 mb-4">[Brief description of Project 1 content]</p>
+                        <a href="link to your project" class="text-blue-500 hover:text-blue-400">View More →</a>
+                    </div>
+                </div>
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-400">Project 2 Title</h3>
+                        <p class="text-gray-500 mb-4">[Brief description of Project 2 content]</p>
+                        <a href="link to your project" class="text-blue-500 hover:text-blue-400">View More →</a>
+                    </div>
+                </div>
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-400">[Project 3 Title]</h3>
+                        <p class="text-gray-500 mb-4">[Brief description of Project 3 content]</p>
+                        <a href="link to your project" class="text-blue-500 hover:text-blue-400">View More →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="link to your project/github" class="bg-blue-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-800 transition duration-300">View All Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="bg-gray-900 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center text-blue-500">About</h2>
+            <div class="flex flex-col items-center justify-center">
+                <div class="mb-8">
+                    <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=300&h=300&fit=crop" alt="Profile Picture" class="rounded-full w-48 h-48 mx-auto object-cover">
+                </div>
+                <div class="text-center max-w-2xl">
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-400">[Your UsrName]</h3>
+                    <p class="text-gray-400 mb-4">[Professional Profile]</p>
+                    <p class="text-gray-400">[Some More about yourself]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="bg-gray-900 py-10">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-blue-500">Reach Out</h2>
+            <a href="mailto:[your_email_address]" class="text-blue-500 hover:text-blue-400 text-xl">[your_email_address]</a>
+        </div>
+    </div>
+
+    <footer class="bg-black py-6 mt-auto">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 text-sm mb-4 md:mb-0">&copy; 2024 MyBlog. All rights reserved.</p>
+                <div class="flex space-x-4">
+                    <a href="[link your Instagram]" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-blue-500 transition duration-300">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="[link your twitter/X]" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-blue-500 transition duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                    
+                    </a>
+                    <a href="[link your linkedin]" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-blue-500 transition duration-300">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // toggle burger menu
+        const burgerButton = document.getElementById('burger-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+    
+        burgerButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // close burger menu when link clicked
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // hover shadow effect
+        const hoverElements = document.querySelectorAll('.hover-shadow');
+        
+        hoverElements.forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                element.classList.add('shadow-lg');
+            });
+            element.addEventListener('mouseleave', () => {
+                element.classList.remove('shadow-lg');
+            });
+        });
+    </script>    
+</body>
+</html>

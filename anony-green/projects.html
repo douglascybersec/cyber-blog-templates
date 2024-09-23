@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pwd {root} - Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">pwd {root}</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">/home</a></li>
+                <li><a href="index.html#blog">/blog</a></li>
+                <li><a href="index.html#projects">/projects</a></li>
+                <li><a href="index.html#whoami">/whoami</a></li>
+            </ul>
+            <a href="#contact" class="contact-button">contact</a>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects" class="projects">
+            <h2>All Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="imgs/crypto post.jpeg" alt="CryptoGuard Project image">
+                    <h3>Zencrypt</h3>
+                    <p>Fortress-level encryption tool for regular netizens.</p>
+                    <a href="projects/project0.html" class="project-button">View Project</a>
+                    <a href="https://github.com/douglascybersec" target="_blank" class="github-link">GitHub repo</a>
+                </div>                
+                
+                <!-- Add more project items here -->
+                <div class="project-item">
+                    <img src="imgs/placeholder.jpg" alt="Project X">
+                    <h3>Project X</h3>
+                    <p>Project X Description placeholder.</p>
+                    <a href="projects/project1.html" class="project-button" data-project="project-x">View Project</a>
+                </div>
+                <div class="project-item">
+                    <img src="imgs/placeholder.jpg" alt="Project Y">
+                    <h3>Project Y</h3>
+                    <p>Project Y Description placeholder</p>
+                    <a href="projects/project2.html" class="project-button" data-project="project-y">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="project-content" class="project-content" style="display: none;">
+            <h2 id="project-title"></h2>
+            <div id="project-full-content"></div>
+            <a href="#" class="back-button">← Back to All Projects</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 pwd {root}. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

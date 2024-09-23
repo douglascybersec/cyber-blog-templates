@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pwd {root} - Blogs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">pwd {root}</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">/home</a></li>
+                <li><a href="index.html#blog">/blog</a></li>
+                <li><a href="index.html#projects">/projects</a></li>
+                <li><a href="index.html#whoami">/whoami</a></li>
+            </ul>
+            <a href="#contact" class="contact-button">contact</a>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="blog" class="blog">
+            <h2>All Blog Posts</h2>
+            <div class="blog-grid">
+                <div class="blog-item">
+                    <img src="imgs/ai-blog.jpeg" alt="AI in Cybersecurity">
+                    <h3>AI in Cybersecurity</h3>
+                    <p>Discover how artificial intelligence is revolutionizing the battlefield of digital security</p>
+                    <a href="blogs/blog0.html" class="read-more">Read More →</a>
+                </div>
+                <!-- Add more blog items here -->
+                <div class="blog-item">
+                    <img src="imgs/blog-img.png" alt="Blog Post X">
+                    <h3>Blog Post X</h3>
+                    <p>Blog X Description placeholder</p>
+                    <a href="blogs/blog1.html" class="read-more" data-blog="blog-x">Read More →</a>
+                </div>
+                <div class="blog-item">
+                    <img src="imgs/blog-img.png" alt="Blog Post Y">
+                    <h3>Blog Post Y</h3>
+                    <p>Blog Y Description placeholder</p>
+                    <a href="blogs/blog2.html" class="read-more" data-blog="blog-y">Read More →</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog-content" class="blog-content" style="display: none;">
+            <h2 id="blog-title"></h2>
+            <div id="blog-full-content"></div>
+            <a href="#" class="back-button">← Back to All Blogs</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 pwd {root}. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
