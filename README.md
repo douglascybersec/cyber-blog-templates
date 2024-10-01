@@ -27,10 +27,10 @@ This repository is a supplement to the web series on building anything web-relat
 git clone https://github.com/douglascybersec/cyber-blog-templates
 
 
-2. Start building or follow [Tutorials](link to playlist)
+2. Start building or follow Tutorial
 
 ```
-
+> [WebSeries Playlist](link)
 
 
 ## All Tools Used
