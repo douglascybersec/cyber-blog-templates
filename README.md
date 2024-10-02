@@ -11,7 +11,8 @@ This repository is a supplement to the web series on building anything web-relat
 
 ## Getting Started
 
-> Simply Navigate to each of the specific Video by Title by Clicking on it below
+> Just to recap, One mouse click on a Video Serie, just after reading this will take you to each of the individual Video Resources Readme files. From there, you can reuse the templates by following the instructions I've posted. (Clicking helped me as well!)
+
 
 ## Video Series
 
