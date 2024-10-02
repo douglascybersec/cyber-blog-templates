@@ -2,9 +2,13 @@
 
 Templates for your next website/blog projects
 
+![YouTube Video Views](https://img.shields.io/youtube/views/AHu4uMpmaNg?logoColor=blueviolet&color=blueviolet)
 ![Views](https://komarev.com/ghpvc/?username=douglascybersec&color=blueviolet)
 ![GitHub contributors](https://img.shields.io/github/contributors/douglascybersec/cyber-blog-templates?color=blueviolet)
-![GitHub forks](https://img.shields.io/github/forks/douglascybersec/cyber-blog-templates?color=blueviolet)
+![GitHub forks](https://img.shields.io/github/forks/douglascybersec/cyber-blog-templates?logoColor=blueviolet)
+![GitHub Repo stars](https://img.shields.io/github/stars/douglascybersec/cyber-blog-templates?logoColor=blueviolet)
+![GitHub watchers](https://img.shields.io/github/watchers/douglascybersec/cyber-blog-templates?logoColor=blueviolet&color=blueviolet)
+
 ## OverView
 This repository is a supplement to the web series on building anything web-related, which is featured on the [YouTube Channel. pwd {root}](link)
 
