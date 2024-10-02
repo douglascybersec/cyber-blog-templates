@@ -8,6 +8,9 @@ Templates for your next website/blog projects
 ![GitHub forks](https://img.shields.io/github/forks/douglascybersec/cyber-blog-templates?logoColor=blueviolet)
 ![GitHub Repo stars](https://img.shields.io/github/stars/douglascybersec/cyber-blog-templates?logoColor=blueviolet)
 ![GitHub watchers](https://img.shields.io/github/watchers/douglascybersec/cyber-blog-templates?logoColor=blueviolet&color=blueviolet)
+![GitHub language count](https://img.shields.io/github/languages/count/douglascybersec/cyber-blog-templates?labelColor=grey&color=blueviolet)
+
+
 
 ## OverView
 This repository is a supplement to the web series on building anything web-related, which is featured on the [YouTube Channel. pwd {root}](link)
