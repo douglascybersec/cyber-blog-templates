@@ -2,13 +2,14 @@
 
 Templates for your next website/blog projects
 
-![YouTube Video Views](https://img.shields.io/youtube/views/AHu4uMpmaNg?logoColor=blueviolet&color=blueviolet)
 ![Views](https://komarev.com/ghpvc/?username=douglascybersec&color=blueviolet)
+![YouTube Video Views](https://img.shields.io/youtube/views/AHu4uMpmaNg?logoColor=blueviolet&color=blueviolet)
 ![GitHub contributors](https://img.shields.io/github/contributors/douglascybersec/cyber-blog-templates?color=blueviolet)
 ![GitHub forks](https://img.shields.io/github/forks/douglascybersec/cyber-blog-templates?logoColor=blueviolet)
 ![GitHub Repo stars](https://img.shields.io/github/stars/douglascybersec/cyber-blog-templates?logoColor=blueviolet)
 ![GitHub watchers](https://img.shields.io/github/watchers/douglascybersec/cyber-blog-templates?logoColor=blueviolet&color=blueviolet)
 ![GitHub language count](https://img.shields.io/github/languages/count/douglascybersec/cyber-blog-templates?labelColor=grey&color=blueviolet)
+![GitHub License](https://img.shields.io/github/license/douglascybersec/cyber-blog-templates?color=blueviolet)
 
 
 
