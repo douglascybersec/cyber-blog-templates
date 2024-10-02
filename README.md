@@ -40,7 +40,7 @@ git clone https://github.com/douglascybersec/cyber-blog-templates
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 - [GitHub Pages](https://pages.github.com/) - Free hosting for static websites
 - [Unsplash](https://unsplash.com/) - Free high-quality images
-- [Imgr](https://imgur.com/) - Free Uploads of your own imgases
+- [Imgr](https://imgur.com/) - Free Photo Uploads
 
 
 ## FREE Resources to learn!
