@@ -29,7 +29,7 @@ This repository is a supplement to the web series on building anything web-relat
 
 
 
-### Installations/ReUse (for all)
+## Installations/ReUse (for all)
 
 ```
 1. Clone this repository:
