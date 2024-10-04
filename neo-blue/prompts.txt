@@ -1,0 +1,34 @@
+IMPORTANT NOTE: Customize the prompts to your own design and replace with your own branding where necessary.
+.........................................................................................................
+
+
+
+
+Navigation Section:
+Create a Header with logo 'pwd {root}' and navigation links for /home, /blog, /projects, /whoami, and a contact button.
+
+Hero section:
+Add  hero Section with a title 'pwd {root}', a catchphrase 'let's decode the mystery, one byte at a time, on the wild side of the cyber world', and a 'View Projects' CTA button.
+
+Blog section:
+design a blog  with a grid of blog posts, each having an image, title, short description, and 'Read More' link. Include a 'View All Posts' button.
+
+Projects section:
+Add a projects section similar to the blog section, but for showcasing projects. Include a 'View All Projects' button.
+
+WhoAmI section:
+A WhoAmI with a profile picture, name 'pwd {root}', and a short bio about being a cybersecurity expert.
+
+Contact section:
+Contact section with an email link instead of a form, a thank you message, and social media links (YouTube, GitHub, X, Instagram, TikTok).
+
+Footer Section:
+Add a footer with copyright notice.
+
+lastly:
+Ensure the design is responsive and includes smooth scrolling for navigation links. Use Tailwind's utility classes for styling, including hover effects and transitions where appropriate
+
+
+
+...................................................................................
+END. HAPPY CODING!
