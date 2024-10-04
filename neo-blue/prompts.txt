@@ -20,7 +20,7 @@ WhoAmI section:
 A WhoAmI with a profile picture, name 'pwd {root}', and a short bio about being a cybersecurity expert.
 
 Contact section:
-Contact section with an email link instead of a form, a thank you message, and social media links (YouTube, GitHub, X, Instagram, TikTok).
+Contact section with only an email link, a thank you message, and social media links (YouTube, GitHub, X, Instagram, TikTok).
 
 Footer Section:
 Add a footer with copyright notice.
