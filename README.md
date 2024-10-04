@@ -1,4 +1,4 @@
-# LET'S BUILD - YouTube WebSeries
+# LET'S BUILD - WebSeries
 
 Templates for your next website/blog projects
 
