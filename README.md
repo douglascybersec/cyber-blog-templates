@@ -24,7 +24,7 @@ This repository is a supplement to the web series on building anything web-relat
 
 ## Video Series
 
-1. [Build your FIRST Website UI using AI (easy peasy!)](link)
+1. [Build your FIRST Website UI using AI (easy peasy!)](https://github.com/douglascybersec/cyber-blog-templates/tree/root/neo-blue)
 2. **Coming Up.......**
 
 
