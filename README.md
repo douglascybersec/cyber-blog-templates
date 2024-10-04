@@ -7,14 +7,14 @@ Templates for your next website/blog projects
 ![GitHub contributors](https://img.shields.io/github/contributors/douglascybersec/cyber-blog-templates?color=blueviolet)
 ![GitHub forks](https://img.shields.io/github/forks/douglascybersec/cyber-blog-templates?logoColor=blueviolet)
 ![GitHub Repo stars](https://img.shields.io/github/stars/douglascybersec/cyber-blog-templates?logoColor=blueviolet)
-![GitHub watchers](https://img.shields.io/github/watchers/douglascybersec/cyber-blog-templates?logoColor=blueviolet&color=blueviolet)
 ![GitHub language count](https://img.shields.io/github/languages/count/douglascybersec/cyber-blog-templates?labelColor=grey&color=blueviolet)
+![GitHub watchers](https://img.shields.io/github/watchers/douglascybersec/cyber-blog-templates?logoColor=blueviolet&color=blueviolet)
 ![GitHub License](https://img.shields.io/github/license/douglascybersec/cyber-blog-templates?color=blueviolet)
 
 
 
 ## OverView
-This repository is a supplement to the web series on building anything web-related, which is featured on the [YouTube Channel. pwd {root}](link)
+This repository is a supplement to the web series on building anything web-related, which is featured on the [YouTube Channel. pwd {root}](https://www.youtube.com/@douglascybersec)
 
 
 ## Getting Started
@@ -51,10 +51,23 @@ git clone https://github.com/douglascybersec/cyber-blog-templates
 - [Imgr](https://imgur.com/) - Free Photo Uploads
 
 
-## FREE Resources to learn!
+## FREE Web Dev Resources!
 
-- JavaScript:
+### Learning Platforms:
+-  [FreeCodeCamp](https://www.freecodecamp.org/)
+-  [Codecademy](https://www.codecademy.com/)
+-  [KhanAcademy](https://www.khanacademy.org/)
+-  [JavaScript30](https://javascript30.com/)
+-  [Coursera](https://www.coursera.org/)
+-  [FrontEnd Mentor](https://www.frontendmentor.io/)
+-  [SoloLearn](https://www.sololearn.com/en/)
 
-- HTML:
+### More Platforms (challenge-based):
+- [HackerRank](https://www.hackerrank.com/)
+- [Codewars](https://www.codewars.com//)
+- [LeetCode](https://leetcode.com/)
+- [Coddy](https://coddy.tech/)
 
 
+## Feedback & Contributions!
+Got a feedback or want to collaborate? I'm all circuits! Pull requests? Yes! _If not h4ck1n9 or c0d1ng, you might catch me creating cybersecurity content mostly on [YouTube](https://www.youtube.com/@douglascybersec)._
