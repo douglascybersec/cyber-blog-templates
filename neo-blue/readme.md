@@ -1,11 +1,11 @@
 # neo-blue-template
 
 This single-file template creates a clean, elegant and responsive website for showcasing your brand, blog articles, and projects.
+The template is developed using HTML and styled with [Tailwind CSS](https://tailwindcss.com/), with the assistance of [PureCode AI](https://purecode.ai/). The prompts used for development are available in the [prompts.txt](https://github.com/douglascybersec/cyber-blog-templates/blob/root/neo-blue/prompts.txt) file
 > _It is "kiss'ed" (designed with simplicity in mind: KISS principle - Keep It Simple, Stupid)_
 
-The template is developed using HTML and styled with [Tailwind CSS](https://tailwindcss.com/), with the assistance of [PureCode AI](https://purecode.ai/). The prompts used for development are available in the [prompts.txt](https://github.com/douglascybersec/cyber-blog-templates/blob/root/neo-blue/prompts.txt) file.
 
-This template is a suplement to the YouTube Video:
+> This template is a suplement to the YouTube Video:
 > ## 1. [Build your FIRST Website UI using AI (easy peasy!)](https://youtu.be/AHu4uMpmaNg)
 
 
