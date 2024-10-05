@@ -24,18 +24,24 @@ We used Unsplash for the high-quality images! Here's how to personalize the temp
 
 ### Method 1: Using Unsplash Images
 ```
-1. Visit [Unsplash](https://unsplash.com) and search for an image you want to use.
-2. Click on the image to open it in full view.
-3. Right-click on the image and select "Copy Image address" or "Open image in new tab".
+1. Visit (https://unsplash.com) and search for an image you want to use
+
+2. Click on the image to open it in full view
+
+3. Right-click on the image and select "Copy Image address" or "Open image in new tab"
+
 4. In the new tab, you'll see the full URL of the image, which looks like this:
 
    https://images.unsplash.com/photo-[image-id]?ixlib=rb-[version]&q=[quality]&w=[width]&fit=[fit]
+
 
 5. Copy everything before the _query string start_ or the question mark (?)
 
    https://images.unsplash.com/photo-[image-id]
 
-6. In the HTML file, locate the `<img>` tag you want to update and replace the `src` attribute with your new URL.
+
+6. In the HTML file, locate the `<img>` tag you want to update and replace the `src` attribute with your new URL
+
 7. Adjust the width and quality parameters (where need be)
 
 ```
