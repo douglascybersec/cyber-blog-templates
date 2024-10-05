@@ -19,7 +19,7 @@ This repository is a supplement to the web series on building anything web-relat
 
 ## Getting Started
 
-> Just to recap, One mouse click on a Video Serie, just after reading this will take you to each of the individual Video Resources Readme files. From there, you can reuse the templates by following the instructions I've posted. (Clicking helped me as well!)
+> Just to recap, One mouse click on a Video Serie, just after reading this will take you to each of the individual Video Resources Readme files. From there, you can reuse the templates by following the instructions I've posted. (Clicking helped me as well, big time!)
 
 
 ## Video Series
@@ -48,7 +48,8 @@ git clone https://github.com/douglascybersec/cyber-blog-templates
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 - [GitHub Pages](https://pages.github.com/) - Free hosting for static websites
 - [Unsplash](https://unsplash.com/) - Free high-quality images
-- [Imgr](https://imgur.com/) - Free Photo Uploads
+- [Imgr](https://imgur.com/) - Free Image Uploads
+- [Heroicons](https://heroicons.com/) - Free icons for the Tailwind UI
 
 
 ## FREE Web Dev Resources!
