@@ -58,7 +58,7 @@ Replacing blog 1 with _[this white-toy image example](https://unsplash.com/photo
 ```
 
 ## Method 2: Using Local Images
-1. Save your images in a local folder within your project directory as in [anony-green template]()
+1. Save your images in a local folder within your project directory as in [anony-green template](https://github.com/douglascybersec/cyber-blog-templates/tree/root/anony-green)
 2. Update the src attribute in the HTML to point to your local image file
 ```
    # Example:
