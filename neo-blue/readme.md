@@ -1,4 +1,4 @@
-# neo-blue Personal Blog Website Template
+# neo-blue-template
 
 This single-file template creates a clean, elegant and responsive website for showcasing your brand, blog articles, and projects.
 
