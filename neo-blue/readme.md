@@ -23,35 +23,32 @@ This template is a suplement to the YouTube Video:
 We used Unsplash for the high-quality images! Here's how to personalize the template with your own images while maintaining the structure and functionality:
 
 ### Method 1: Using Unsplash Images
-
+```
 1. Visit [Unsplash](https://unsplash.com) and search for an image you want to use.
 2. Click on the image to open it in full view.
 3. Right-click on the image and select "Copy Image address" or "Open image in new tab".
 4. In the new tab, you'll see the full URL of the image, which looks like this:
-```
+
    https://images.unsplash.com/photo-[image-id]?ixlib=rb-[version]&q=[quality]&w=[width]&fit=[fit]
 
-```
 5. Copy everything before the _query string start_ or the question mark (?)
-```
+
    https://images.unsplash.com/photo-[image-id]
 
-```
 6. In the HTML file, locate the `<img>` tag you want to update and replace the `src` attribute with your new URL.
 7. Adjust the width and quality parameters (where need be)
 
+```
 
 Example:
 Replacing blog 1 with _[this white-toy image example](https://unsplash.com/photos/a-white-toy-with-a-black-nose-6UDansS-rPI):_
 
 ```
-   # Original:
+# Original:
 
    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Blog 1" class="w-full h-48 object-cover">
-```
 
-```
-   # Updated:
+# Updated:
 
    <img src="https://images.unsplash.com/photo-1666597107756-ef489e9f1f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Blog 1" class="w-full h-48 object-cover">
 
