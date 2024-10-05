@@ -7,7 +7,7 @@ _It is "kiss'ed" (designed with simplicity in mind: KISS principle - Keep It Sim
 The template is developed using HTML and styled with [Tailwind CSS](https://tailwindcss.com/), with the assistance of [PureCode AI](https://purecode.ai/). The prompts used for development are available in the [prompts.txt](https://github.com/douglascybersec/cyber-blog-templates/blob/root/neo-blue/prompts.txt) file.
 
 This template is a suplement to the YouTube Video:
-> ## 1. [Build your FIRST Website UI using AI (easy peasy!)](link)
+> ## 1. [Build your FIRST Website UI using AI (easy peasy!)](https://youtu.be/AHu4uMpmaNg)
 
 
 ## Getting Started

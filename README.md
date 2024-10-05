@@ -39,7 +39,7 @@ git clone https://github.com/douglascybersec/cyber-blog-templates
 2. Start building or follow Tutorial
 
 ```
-> [WebSeries Playlist](link)
+> [WebSeries Playlist](https://www.youtube.com/playlist?list=PLGv2XmUT2XAMuJEffIMGeuM8LLgqj9Nr-)
 
 
 ## All Tools Used
