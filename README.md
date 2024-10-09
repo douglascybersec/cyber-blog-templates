@@ -1,4 +1,4 @@
-# LET'S BUILD - WebSeries
+# LET'S BUILD - WebDevSeries
 
 Templates for your next website/blog projects
 
