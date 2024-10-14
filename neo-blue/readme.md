@@ -53,7 +53,8 @@ HTML:
 />
 ```
 
-Result:
+> Result:
+
 <img
   src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
   alt="Blog 1"
@@ -72,7 +73,8 @@ HTML:
 />
 ```
 
-Result:
+> Result:
+
 <img src="https://images.unsplash.com/photo-1666597107756-ef489e9f1f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Blog 1" class="w-full h-48 object-cover">
 
 ## Method 2: Using Local Images
